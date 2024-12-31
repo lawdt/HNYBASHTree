@@ -1,6 +1,6 @@
-# ChristBASHTree
+# HNYBASHTree
 
-You know, a Christmas tree on Bash :)
+Простое Новогоднее дерево на Bash :)
 
 ![Screenshot](./screenshot.png?raw=true)
 
@@ -9,16 +9,22 @@ You know, a Christmas tree on Bash :)
 Via cURL:
 
 ```
+# Russina version
+curl https://raw.githubusercontent.com/lawdt/HNYBASHTree/refs/heads/master/tree-RU.sh | bash
+
 # English version
-curl https://raw.githubusercontent.com/sergiolepore/ChristBASHTree/master/tree-EN.sh | bash
+curl https://raw.githubusercontent.com/lawdt/HNYBASHTree/refs/heads/master/tree-EN.sh | bash
 
 # Spanish version
-curl https://raw.githubusercontent.com/sergiolepore/ChristBASHTree/master/tree-ES.sh | bash
+curl https://raw.githubusercontent.com/lawdt/HNYBASHTree/refs/heads/master/tree-ES.sh | bash
 ```
 
 Via Wget:
 
 ```
+# Russian version
+wget -q0- https://raw.githubusercontent.com/lawdt/HNYBASHTree/refs/heads/master/tree-RU.sh | bash
+
 # English version
 wget -qO- https://raw.githubusercontent.com/sergiolepore/ChristBASHTree/master/tree-EN.sh | bash
 
@@ -29,6 +35,7 @@ wget -qO- https://raw.githubusercontent.com/sergiolepore/ChristBASHTree/master/t
 Docker:
 
 ```
+# English version
 docker pull sergiolepore/christbashtree:latest
 docker run -it sergiolepore/christbashtree:latest
 ```
@@ -36,7 +43,7 @@ docker run -it sergiolepore/christbashtree:latest
 Git clone and execute:
 
 ```
-git clone https://github.com/sergiolepore/ChristBASHTree.git && cd ./ChristBASHTree && bash tree-EN.sh
+git clone https://github.com/lawdt/HNYBASHTree.git && cd ./HNYBASHTree && bash tree-RU.sh
 ```
 
 __Enjoy!__
@@ -51,18 +58,6 @@ __Enjoy!__
 
 Only GNU/Linux and Unix flavors.
 
-## What OS are you using?
-
-Ubuntu 17.10.
-
-## What about your terminal emulator?
-
-[Tilix](https://gnunn1.github.io/tilix-web/)
-
-## And your color palette?
-
-Custom, based on Atom's "One Dark" theme.
-
-## Contributors
+## Original Authors
 
 [Here](https://github.com/sergiolepore/ChristBASHTree/graphs/contributors)
