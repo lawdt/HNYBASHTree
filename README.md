@@ -9,7 +9,7 @@
 Via cURL:
 
 ```
-# Russina version
+# Russian version
 curl https://raw.githubusercontent.com/lawdt/HNYBASHTree/refs/heads/master/tree-RU.sh | bash
 
 # English version
